@@ -1,0 +1,17 @@
+uint64 timestamp
+string simulation_id
+uint32 steps
+string team
+string map
+Role role
+Product[] products
+Upgrade[] upgrades
+Well[] wells
+float32 proximity
+float32 cell_size
+float64 min_lat
+float64 max_lat
+float64 min_lon
+float64 max_lon
+float64 center_lat
+float64 center_lon

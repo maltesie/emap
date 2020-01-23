@@ -1,0 +1,11 @@
+<launch>
+    <arg name="agent_name" default="agentA1" />
+    <arg name="nb_agents" default="6" />
+
+    <node pkg="emap" type="random_agent.py"
+        name="agent_node_$(arg agent_name)" output="screen"
+        >
+            <param name="agent_name" value="$(arg agent_name)" />
+            <param name="nb_agents" value="$(arg nb_agents)" />
+    </node>
+</launch>
