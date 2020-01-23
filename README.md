@@ -43,9 +43,13 @@ Arch-based systems use python3 as a default and the necessary packages can be in
 sudo pip install scipy, networkx
 ```
 
+### Graphhopper server
+
+Copy the contents from https://github.com/graphhopper/graphhopper to the third-party/graphopper folder.
+
 ## Usage
 
-The two zips containing graphhopper and the massim simulation server in the folder my_mapc/third_party have to be unpacked. After that, in the my_mapc folder, run
+The zip containing the massim simulation server in the folder my_mapc/third_party has to be unpacked. After that, in the my_mapc folder, run
 
 ```shell
 catkin_make
